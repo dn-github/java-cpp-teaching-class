@@ -14,6 +14,7 @@ Search an element => ```O(N)``` <br>
 ```[]```, ```Array``` and ```Vector``` <br>
 
 #### Available functions
+```[]```
 ```size``` <br>
 ```empty``` <br>
 ```push_back``` <br>
@@ -67,6 +68,9 @@ Search an element => ```O(N)``` <br>
 ```erase``` (by iterator) <br>
 ```remove``` (by value) <br>
 ```begin``` <br>
+```end``` <br>
+```front``` <br>
+```back``` <br>
 ```clear``` <br>
 
 ## Stack
@@ -111,9 +115,82 @@ Insert element => ```O(1)``` <br>
 Remove element => ```O(1)``` <br>
 Access element => ```O(1)``` <br>
 
+### C++ Implementation
+```unordered_map`
+
+#### Available Functions
+```[]``` <br>
+```size``` <br>
+```empty``` <br>
+```count``` (by key) <br>
+```erase``` (by iterator, by key) <br>
+```find``` (by key) <br>
+```insert``` (inserting pair)<br>
+```clear``` <br>
+```begin``` <br>
+```end``` <br>
+
 ## Hash Set
 Hash Set is also called ```dictionary``` data structure. It is exactly similar to ```HashMap```, except that it is not {Key, Value} pair. HashSet is defined for single elements. Size of a HashSet is not the same as the number of elements. 
 
 Insert element => ```O(1)``` <br>
 Remove element => ```O(1)``` <br>
 Access element => ```O(1)``` <br>
+
+### C++ Implementation
+```unordered_set`
+
+#### Available Functions
+```size``` <br>
+```empty``` <br>
+```count``` (by key) <br>
+```erase``` (by iterator, by key) <br>
+```find``` (by key) <br>
+```insert``` (inserting key)<br>
+```clear``` <br>
+```begin``` <br>
+```end``` <br>
+
+
+## Ordered Map
+Ordered Map keeps the elements sorted by key. So we can imagine this as a sorted array. 
+
+Insert element => ```O(logN)``` <br>
+Remove element => ```O(logN)``` <br>
+Access/Find element => ```O(logN)``` <br>
+
+### C++ Implementation
+```map`
+
+#### Available Functions
+```[]``` <br>
+```size``` <br>
+```empty``` <br>
+```count``` (by key) <br>
+```erase``` (by iterator, by key) <br>
+```find``` (by key) <br>
+```insert``` (inserting pair)<br>
+```clear``` <br>
+```begin``` <br>
+```end``` <br>
+
+## Ordered Set
+Ordered Set keeps the elements sorted by key. So we can imagine this as a sorted array. This differs from ```Ordered Map``` since it only deals with single values, not {key, value} pair.
+
+Insert element => ```O(logN)``` <br>
+Remove element => ```O(logN)``` <br>
+Access element => ```O(logN)``` <br>
+
+### C++ Implementation
+```set`
+
+#### Available Functions
+```size``` <br>
+```empty``` <br>
+```count``` (by key) <br>
+```erase``` (by iterator, by key) <br>
+```find``` (by key) <br>
+```insert``` (inserting value) <br>
+```clear``` <br>
+```begin``` <br>
+```end``` <br>
