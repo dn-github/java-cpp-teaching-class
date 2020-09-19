@@ -20,7 +20,7 @@ Search an element => ```O(N)``` <br>
 ```insert``` (by iterator) <br>
 ```[]``` <br>
 ```pop_back``` <br>
-```erase``` <br>
+```erase``` (by iterator) <br>
 ```size``` <br>
 ```begin``` <br>
 ```end``` <br>
@@ -76,12 +76,33 @@ Insert element => ```O(1)``` <br>
 Remove element => ```O(1)``` <br>
 Access element => ```O(1)``` <br>
 
+### C++ Implementation
+```stack```
+
+#### Available functions
+```push``` <br>
+```pop``` <br>
+```top``` <br>
+```size``` <br>
+```empty``` <br>
+
 ## Queue
 Queue is a data structure with ```First in First out``` feature. Insertion, removal and access can only be done at/from the front. 
 
 Insert element => ```O(1)``` <br>
 Remove element => ```O(1)``` <br>
 Access element => ```O(1)``` <br>
+
+### C++ Implementation
+```queue```
+
+#### Available functions
+```push``` <br>
+```pop``` <br>
+```front``` <br>
+```back``` <br>
+```size``` <br>
+```empty``` <br>
 
 ## Hash Map
 Hash Map is also called ```dictionary``` data structure. Each element in a HashMap is a {Key, Value} pair. Each key is indexed inside the data structure. Locating a key is two steps process. HashMap first calculates the index of the key using a hash function. Then it access the element from that Index. Size of a HashMap is not the same as the number of elements. 
