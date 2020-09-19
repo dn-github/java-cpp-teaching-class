@@ -18,11 +18,9 @@ Search an element => ```O(N)``` <br>
 ```size``` <br>
 ```empty``` <br>
 ```push_back``` <br>
-```insert``` (by iterator) <br>
-```[]``` <br>
 ```pop_back``` <br>
+```insert``` (by iterator) <br>
 ```erase``` (by iterator) <br>
-```size``` <br>
 ```begin``` <br>
 ```end``` <br>
 ```clear``` <br>
@@ -71,6 +69,30 @@ Search an element => ```O(N)``` <br>
 ```end``` <br>
 ```front``` <br>
 ```back``` <br>
+```clear``` <br>
+
+## String
+It is same as an array of characters.
+
+### C++ Implementation
+```string``` <br>
+For use case, see stringPractice.cpp in ```coding```
+
+#### Available functions
+```[]```
+```size``` <br>
+```length``` <br>
+```empty``` <br>
+```push_back``` <br>
+```pop_back``` <br>
+```insert``` (by iterator) <br>
+```find``` (by character, by string) <br>
+```erase``` (by iterator, by iterator range, by index and length) <br>
+```replace``` (by iterator range, by index and length) <br>
+```substr``` (by index and length) <br>
+```compare``` <br>
+```begin``` <br>
+```end``` <br>
 ```clear``` <br>
 
 ## Stack
