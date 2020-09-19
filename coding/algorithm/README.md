@@ -116,7 +116,7 @@ Remove element => ```O(1)``` <br>
 Access element => ```O(1)``` <br>
 
 ### C++ Implementation
-```unordered_map`
+```unordered_map```
 
 #### Available Functions
 ```[]``` <br>
@@ -138,7 +138,7 @@ Remove element => ```O(1)``` <br>
 Access element => ```O(1)``` <br>
 
 ### C++ Implementation
-```unordered_set`
+```unordered_set```
 
 #### Available Functions
 ```size``` <br>
@@ -160,7 +160,7 @@ Remove element => ```O(logN)``` <br>
 Access/Find element => ```O(logN)``` <br>
 
 ### C++ Implementation
-```map`
+```map```
 
 #### Available Functions
 ```[]``` <br>
@@ -182,7 +182,7 @@ Remove element => ```O(logN)``` <br>
 Access element => ```O(logN)``` <br>
 
 ### C++ Implementation
-```set`
+```set```
 
 #### Available Functions
 ```size``` <br>
