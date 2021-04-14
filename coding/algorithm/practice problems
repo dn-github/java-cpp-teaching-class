@@ -1,0 +1,106 @@
+Miscellenious
+first non repeating character in a string
+find all prime factors of a number
+find all prime factor with power for a given number
+area of histogram
+trapping rainwater
+
+DP:
+https://www.geeksforgeeks.org/ugly-numbers/
+https://www.geeksforgeeks.org/space-and-time-efficient-binomial-coefficient/
+^^ DP method
+Fibonacci: https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/
+matrix logn method
+https://www.geeksforgeeks.org/coin-change-dp-7/
+subset sum problem https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
+https://www.geeksforgeeks.org/minimum-number-of-fibonacci-jumps-to-reach-end/
+https://www.geeksforgeeks.org/find-minimum-number-of-coins-that-make-a-change/
+https://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/
+https://leetcode.com/problems/frog-jump/
+https://www.geeksforgeeks.org/longest-palindromic-subsequence-dp-12/
+https://www.geeksforgeeks.org/word-break-problem-dp-32/
+https://www.geeksforgeeks.org/space-optimized-solution-lcs/
+https://leetcode.com/problems/delete-and-earn/solution/
+https://leetcode.com/problems/largest-sum-of-averages/solution/
+0-1 knapsack problem
+https://leetcode.com/discuss/interview-question/356433/
+LIS in NlogN time
+
+Backtracking:
+https://www.geeksforgeeks.org/backtracking-to-find-all-subsets/
+https://www.geeksforgeeks.org/powet-set-lexicographic-order/
+https://www.geeksforgeeks.org/check-given-string-sum-string/
+https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/
+https://www.geeksforgeeks.org/rat-in-a-maze-backtracking-2/
+https://www.geeksforgeeks.org/subset-sum-backtracking-4/
+https://www.geeksforgeeks.org/boggle-set-2-using-trie/
+https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/
+https://www.geeksforgeeks.org/printing-solutions-n-queen-problem/
+
+Tree:
+height of tree
+max root to leaf path
+https://www.geeksforgeeks.org/find-postorder-traversal-of-bst-from-preorder-traversal/
+https://www.geeksforgeeks.org/find-all-possible-trees-with-given-inorder-traversal/
+https://www.geeksforgeeks.org/replace-node-binary-tree-sum-inorder-predecessor-successor/
+https://www.geeksforgeeks.org/populate-inorder-successor-for-all-nodes/
+https://www.geeksforgeeks.org/inorder-succesor-node-binary-tree/
+https://www.geeksforgeeks.org/find-deepest-node-binary-tree/
+https://www.geeksforgeeks.org/closest-leaf-to-a-given-node-in-binary-tree/
+https://www.geeksforgeeks.org/closest-leaf-to-a-given-node-in-binary-tree/
+https://www.geeksforgeeks.org/maximum-consecutive-increasing-path-length-in-binary-tree/
+https://www.geeksforgeeks.org/path-length-maximum-number-bends/
+https://www.geeksforgeeks.org/find-distance-between-two-nodes-of-a-binary-tree/
+https://www.geeksforgeeks.org/reverse-tree-path/
+https://www.geeksforgeeks.org/calculate-depth-full-binary-tree-preorder/
+https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion-and-without-stack/
+Inorder iterative
+inorder without extra space
+https://www.geeksforgeeks.org/maximum-consecutive-increasing-path-length-in-binary-tree/
+
+
+Graph:
+detect cycle in undirected graph: BFS, DFS, topological sort
+https://www.geeksforgeeks.org/detect-cycle-undirected-graph/
+https://www.geeksforgeeks.org/detect-cycle-in-an-undirected-graph-using-bfs/
+
+detect cycle in directed graph: BFS, DFS, topological sort
+https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
+https://www.geeksforgeeks.org/detect-cycle-in-a-directed-graph-using-bfs/
+
+To also print the cycle: https://www.geeksforgeeks.org/detect-cycle-in-the-graph-using-degrees-of-nodes-of-graph/
+
+https://www.geeksforgeeks.org/longest-path-in-a-directed-acyclic-graph-dynamic-programming/
+
+https://www.geeksforgeeks.org/shortest-path-for-directed-acyclic-graphs/
+https://www.geeksforgeeks.org/find-longest-path-directed-acyclic-graph/
+
+Code it: https://www.geeksforgeeks.org/detect-cycle-in-a-graph/
+https://www.geeksforgeeks.org/longest-path-between-any-pair-of-vertices/
+https://www.geeksforgeeks.org/topological-sorting/
+https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/
+https://leetcode.com/discuss/interview-experience/447299/google-l4-mtv-dec-2019-offer
+https://leetcode.com/discuss/interview-question/351147/Google-or-Onsite-or-Arithmetic-Expression-to-Construct-a-Value/320479
+find connected components
+
+
+
+
+https://leetcode.com/problems/single-number-ii/
+
+
+Read:
+How SSO works
+Three way handshakes
+How to design multiplayer video game
+Reverse Indexing
+How web crawler works
+How DHCP works.  https://superuser.com/questions/811501/understanding-dhcp-discovery-specific-subnet
+How NAT works. https://www.youtube.com/watch?v=QBqPzHEDzvo   https://en.wikipedia.org/wiki/Network_address_translation
+MD5 SHA256 RSA256 HMAC algorithm
+What is subnetting. Class A B C
+What is ACID property of database
+RPC vs gRPC
+gRPC vs REST
+Golang build and compilation method
+JWT and public key authentication https://itnext.io/so-what-the-heck-is-jwt-or-json-web-token-dca8bcb719a6

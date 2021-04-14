@@ -12,6 +12,26 @@ ans: abc
 
 using namespace std;
 
+int commonSubstrLengthRecurUtil(string X, string Y) {
+	int m = X.length();
+	int n = Y.length();
+
+	if(m == 0 || n == 0)
+		return 0;
+
+	if(X[m-1] == Y[n-1])
+		maximum = max(maximum, 1 + commonSubstrLengthRecurUtil(X.substr(0, m-1), Y.substr(0, n-1)));
+	else
+		return 0;
+
+	return maximum;
+}
+
+int commonSubstrLengthRecur(string X, string Y) {
+	int maximum = 0;
+	return commonSubstrLengthRecurUtil(X, Y, maximum);
+}
+
 int commonSubstrLength(string X, string Y) {
 	int m = X.length();
 	int n = Y.length();
@@ -40,7 +60,7 @@ int commonSubstrLength(string X, string Y) {
 
 
 int main() {
-	cout<<commonSubstrLength("abcdfghmn", "kypabcztmn") <<endl;
-	cout<<commonSubstrLength("abcdfghmn", "kypabcztghmndgasghal");
+	cout<<commonSubstrLengthRecur("abcdfghmn", "kypabcztmn") <<endl;
+	cout<<commonSubstrLengthRecur("abcdfghmn", "kypabcztghmndgasghal");
 	return 0;
 }
