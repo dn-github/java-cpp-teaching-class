@@ -17,17 +17,17 @@ int peakIndexInMountainArray(vector<int>& arr) {
 
 int main() {
     int num;
-    cout<<"enter number of elements"<<endl;
-    cin>>num;
+    std::cout<<"enter number of elements"<<std::endl;
+    std::cin>>num;
 
     vector<int> arr;
     int elem;
     for(int i = 0; i < num; i++) {
-        cout<<"Enter element"<<endl;
-        cin>>elem;
+        std::cout<<"Enter element"<<std::endl;
+        std::cin>>elem;
         arr.push_back(elem);
     }
 
-    cout<<"The peak element is at Index "<<peakIndexInMountainArray(arr);
+    std::cout<<"The peak element is at Index "<<peakIndexInMountainArray(arr);
     return 0;
 }
