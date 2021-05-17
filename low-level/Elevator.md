@@ -1,0 +1,1 @@
+1. The lift takes an upQueue or downQueue and process all requests in it. That means the lift goes in upward direction till it completes all the floor. Then it decides which queue to make the current queue. If it is downward queue, it processes all the floors in that queue. Then it decides again.

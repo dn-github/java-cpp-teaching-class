@@ -38,9 +38,9 @@ public class Elevator {
 
 	public Comparator<Request> downComparator = upComparator.reversed();
 
-	private Queue<Request> upQueue = new PriorityQueue<>(upComparator);
+	private Queue<Request> upQueue = new PriorityQueue<>(upComparator); // from low floor to high floor
 	private Queue<Request> currentQueue = upQueue;
-	private Queue<Request> downQueue = new PriorityQueue<>(downComparator);
+	private Queue<Request> downQueue = new PriorityQueue<>(downComparator); // from high floor to low floor
 
 	public void call(int floor, Direction direction) {
 		if (direction == Direction.UP) {
@@ -102,7 +102,8 @@ public class Elevator {
 	}
 
 	private void preProcessNextQueue() {
-		if (getLowestTimeUpQueue() > getLowestTimeDownQueue()) {
+		// check which queue has passenger waiting for the longest time. Process that queue to completion. 
+		if (getLowestTimeUpQueue() < getLowestTimeDownQueue()) {
 			this.direction = Direction.UP;
 			currentQueue = upQueue;
 			upQueue = new PriorityQueue<>(upComparator);
